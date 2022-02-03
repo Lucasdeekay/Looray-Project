@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Store For Perfume Oil, Body Spray And Perfumes">
+    <title>Looray Fragrance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header of the page-->
+    <header class="main-header">
+        <div>
+            <h1 class="title">LOORAY FRAGRANCE</h1>
+        </div>
+        <small class="icon"><i>"Your smell, Your smile"</i></small>
+
+        <nav class="navigation link">
+            <span><a href="index.html">Home</a></span>
+            <span><a href="store.html">Store</a></span>
+        </nav>
+    </header>
+
+    <!--Main body of the page-->
+    <main>
+        <!--SUB-HEADINGS-->
+        <h2 class="header-1">WELCOME TO THE STORE</h2>
+
+        <div class="sub-heading">
+            <h3 class="header-2">Perfume</h3>
+        </div>
+
+        <form name="shoppingForm">
+
+            <section class="container">
+                <!--GOODS 1-->
+                <div class="image-container">
+                    <img src="image\pexels-adrianna-calvo-364096.jpg" alt="">
+    
+                    <div class="price-tag">
+                        <label for="price" class="header-3">Perfume A<br>Price: #700</label>
+                    </div>
+    
+                </div>
+    
+                <!--GOODS 2-->
+                <div class="image-container">
+                    <img src="image\pexels-cottonbro-4612154.jpg" alt="">
+                 
+                    <div class="price-tag">
+                        <label for="price" class="header-3">Perfume B<br>Price: #800</label>
+                    </div>
+             
+                </div>
+    
+                <!--GOODS 3-->
+                <div class="image-container">
+                    <img src="image\pexels-kaboompics-com-6404.jpg" alt="">
+             
+                    <div class="price-tag">
+                        <label for="price" class="header-3">Perfume C<br>Price: #900</label>
+                    </div>
+    
+                </div>
+    
+                <!--GOODS 4-->
+                <div class="image-container">
+                    <img src="image\pexels-pixabay-459335.jpg" alt="">
+    
+                    <div class="price-tag">
+                        <label for="price" class="header-3">Perfume D<br>Price: #750</label>
+                    </div>
+    
+                </div>
+    
+                <!--GOODS 5-->
+                <div class="image-container">
+                    <img src="image\pexels-retha-ferguson-3059397.jpg" alt="">
+    
+                    <div class="price-tag">
+                        <label for="price" class="header-3">Perfume E<br>Price: #850</label>
+                    </div>
+    
+                </div>
+    
+                <!--GOODS 6-->
+                <div class="image-container">
+                    <img src="image\pexels-thiago-matos-3230019.jpg" alt="">
+    
+                    <div class="price-tag">
+                        <label for="price" class="header-3">Perfume F<br>Price: #950</label>
+                    </div>
+    
+                </div>
+    
+                <!--GOODS 7-->
+                <div class="image-container" >
+                    <img src="image\top-workspace_LZM4VAJQW7.jpg" alt="">
+    
+                    <div class="price-tag">
+                        <label for="price" class="header-3">Perfume G<br>Price: #600</label>
+                    </div>
+    
+                </div>
+    
+            </section>
+
+            <div class="sub-heading">
+
+                <!--SELECT OPTION-->
+                <select class="form-output" name="perfumeOptions" id="selectedPerfume">
+                    <option value="">Select Perfume</option>
+                    <option id="A" value="700">Perfume A</option>
+                    <option id="B" value="800">Perfume B</option>
+                    <option id="C" value="900">Perfume C</option>
+                    <option id="D" value="750">Perfume D</option>
+                    <option id="E" value="850">Perfume E</option>
+                    <option id="F" value="950">Perfume F</option>
+                    <option id="G" value="600">Perfume G</option>
+                </select>
+
+                <!--Quantity-->
+                <div class="quantity-input" id="quantityPrompt">
+                    <label for="quantity">Quantity:</label><br>
+                    <input type="number" name="quantity" id="quantityInput" placeholder="Enter Quantity...">
+                </div>
+        
+                    <!--SUBMIT BUTTON-->
+                <div>
+                    <input type="button" class="button" id="submitOrder" value="DONE">
+                </div>
+
+                <div class="messageOutput header-3" id="errorMessage"></div>
+                <div class="messageOutput header-3" id="message"></div>
+
+                <div>
+                    <input type="submit" class="button messageOutput" id="placeOrder" value="ORDER">
+                </div>
+
+            </div>
+
+        </form>
+
+    </main>
+
+    <!--Footer of the page-->
+    <footer class="main-footer">
+        <div>
+            <p>
+                <i>"For your affordable and wonderful perfumes, we are right at your doorstep <br>
+                <strong>Looray Fragrance</strong>,
+                 <br> Always at your reach"</i>
+            </p>
+            <p>Copyright &copy; 2020</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

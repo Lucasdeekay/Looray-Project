@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+html, body, h1{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 2.5em;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.icon{
+    font-size: 1em;
+    font-variant: small-caps;
+}
+.main-header, .main-footer{
+    text-align: center;
+    background-image: url("image/pexels-luck-galindo-544268.jpg");
+    background-size: cover;
+    color: rgb(255, 145, 0);
+    padding-bottom: 10px;
+}
+.main-header{
+    border-bottom-right-radius: 4fr;
+}
+.header-1, .header-2, .header-3{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 145, 0);
+}
+.header-3{
+    color: black;
+    font-weight: 500;
+    font-size: large;
+}
+.sub-heading{
+    background-color: blueviolet;
+    padding: 2px 0px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5%;
+    border-style: double;
+    text-align: center;
+}
+.main-footer{
+    
+    font-size: larger;
+}
+body{
+    background-color: beige;
+    font-size: 100%;
+}
+p{
+    text-indent: 20px;
+}
+.image-container{
+    padding: 10px;
+}
+.image-container img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    box-shadow: 5px 5px rgb(104, 89, 89);
+}
+img:hover{
+    box-shadow: 5px 5px 10px 10px rgb(104, 89, 89);
+}
+.image-container:hover{
+    background-color: rgb(212, 205, 205);
+}
+.navigation{
+    text-align: center;
+    word-spacing: 50px;
+    font-size: x-large;
+}
+.navigation a{
+    color: rgb(250, 124, 7);
+    /* it removes the underline on the link */
+    text-decoration: none;
+}
+/* Change setting when we hover around the link */
+.navigation a:hover{
+    background-color: rgba(255, 255, 255, 4);
+    cursor: pointer;
+    color: black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.link{
+    text-align: center;
+    text-transform: uppercase;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+    font-size: large;
+    cursor: pointer;
+    background-color: black;
+    border-style: double;
+    border-radius: 30%;
+    padding: 8px;
+}
+section img{
+    width: 50px;
+}
+.button{
+    padding: 5px;
+    border-radius: 20%;
+    text-transform: uppercase;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    background-color: coral;
+    border-style: double;
+}
+.form-output, .quantity-input{
+    font-family: cursive;
+    font-weight: 400;
+    font-size: small;
+    color: black;
+    padding: 2px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 10%;
+}
+.form-output{
+    background-color: coral;
+}
+.quantity-input label{
+    font-size: larger;
+    padding: 0;
+    margin: 0;
+    color: coral;
+}
+.quantity-input input{
+    color: black;
+}
+.messageOutput{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 150px;
+    background-color: coral;
+    font-family: fantasy;
+    margin: 5px auto;
+    border-radius: 20%;
+    border-style: double;
+}
+.price-tag{
+    text-align: center;
+    background-color: coral;
+    border-style: dotted;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+.green{
+    background-color: rgb(27, 223, 27);
+}
